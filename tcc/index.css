@@ -1,0 +1,64 @@
+header{
+    background-color: #dddddd;
+    height: 40px;
+}
+h1{
+    text-align: center;
+    color:red;
+    font-family: arial;
+}
+h1:hover{
+    color: blue;
+    transition: 1s;
+}
+#menu ul {
+    padding:0px;
+    margin:0px;
+    list-style:none;
+}
+#menu ul li { 
+    display: inline; 
+}
+nav#menu{
+    text-align: center;
+    font-size: 25pt;
+    
+}
+nav#menu a{
+    text-decoration: none;
+ }
+ iframe{
+     border: 0px;
+ }
+ li{
+    border: 0.5px solid #dddddd;
+    background-color: #ff00000;
+    padding: 5px;
+    margin: 4px;
+    font-family: verdana;
+}
+li:hover{
+    background-color: grey;
+    color:red;
+    transition:1s;
+    text-align: center;
+}
+li a:hover{
+    color:red;
+    background-color: graytext;
+}
+li a{
+    color:blue;
+}
+ul li{
+    width: 500px;
+}
+section{
+    background-color: #dddddd;
+    width: 1250px;
+    height: 900px;
+}
+ul li#user{
+    font-size: 12pt;
+    text-align: right;
+}
