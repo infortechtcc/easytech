@@ -8,8 +8,7 @@ and open the template in the editor.
     <head>
         <title>Assistencia técnica </title>
         <meta charset="UTF-8">
-        <link href="index.css" rel="stylesheet" type="text/css">
-        <link rel="shortcut icon" href="imagens/favicon.ico" />
+        <link href="../index.css" rel="stylesheet" type="text/css">
     </head>
     <body>
         <header>
@@ -20,11 +19,10 @@ and open the template in the editor.
         <nav id="menu">
     <ul id="titulo">
         
-        <li><a href="novidades.php">NOVIDADES</a></li>  
-        <li><a href="reservas.php">RESERVAS</a></li>
-        <li><a href="principal.php">HOME</a></li>
-        <li><a href="protocolo.php">PROTOCOLO</a></li>
-        <li><a href="staff.php">QUEM SOMOS</a></li>
+        <li><a href="cadastro.php">CADASTROS</a></li>  
+        <li><a href="consulta.php">CONSULTAS</a></li>
+        <li><a href="../cliente.php">HOME</a></li>
+        <li><a href="protocolos.php">PROTOCOLOS</a></li>
     </ul>
            
 </nav>
@@ -35,7 +33,7 @@ and open the template in the editor.
        
         <section>
          
-            <img src="imagens/logo.png">
+            <img src="logo.png">
             
         </section>
        

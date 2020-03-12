@@ -9,7 +9,6 @@ and open the template in the editor.
         <title>Assistencia técnica </title>
         <meta charset="UTF-8">
         <link href="index.css" rel="stylesheet" type="text/css">
-        <link rel="shortcut icon" href="imagens/favicon.ico" />
     </head>
     <body>
         <header>

@@ -9,7 +9,7 @@ and open the template in the editor.
         <title>Assistencia técnica </title>
         <meta charset="UTF-8">
         <link href="index.css" rel="stylesheet" type="text/css">
-        <link rel="shortcut icon" href="imagens/favicon.ico" />
+        <link href="reservas.css" rel="stylesheet" type="text/css">
     </head>
     <body>
         <header>
@@ -18,6 +18,7 @@ and open the template in the editor.
         </br>
         </br>
         <nav id="menu">
+            
     <ul id="titulo">
         
         <li><a href="novidades.php">NOVIDADES</a></li>  
@@ -26,16 +27,27 @@ and open the template in the editor.
         <li><a href="protocolo.php">PROTOCOLO</a></li>
         <li><a href="staff.php">QUEM SOMOS</a></li>
     </ul>
-           
+            <br>
+            <br>
 </nav>
+        
+        
          </header>    
      
         </br>
        <div style="border: 1px solid brown">   </div>
        
         <section>
-         
-            <img src="imagens/logo.png">
+          <form method="post" action="#">
+  <label for="ncliente">Cliente:</label><br>
+  <input type="text" id="ncliente" name="ncliente" size="50" placeholder="Informe seu nome" ><br>
+  <label for="problema">Problema:</label><br>
+  <label form="problema" </label> <textarea id="problema" rows="15" width="50"placeholder="Escreva seu problema" style="margin: 2px; height: 225px; width: 451px;">  </textarea><br>
+  <input type="submit" value="Enviar">
+           
+           
+           </form>
+          
             
         </section>
        

@@ -9,7 +9,6 @@ and open the template in the editor.
         <title>Assistencia técnica </title>
         <meta charset="UTF-8">
         <link href="index.css" rel="stylesheet" type="text/css">
-        <link rel="shortcut icon" href="imagens/favicon.ico" />
     </head>
     <body>
         <header>
@@ -20,12 +19,17 @@ and open the template in the editor.
         <nav id="menu">
     <ul id="titulo">
         
-        <li><a href="novidades.php">NOVIDADES</a></li>  
-        <li><a href="reservas.php">RESERVAS</a></li>
-        <li><a href="principal.php">HOME</a></li>
-        <li><a href="protocolo.php">PROTOCOLO</a></li>
-        <li><a href="staff.php">QUEM SOMOS</a></li>
-    </ul>
+        <li><a href="server/cadastro.php">CADASTROS</a></li>  
+        <li><a href="server/consulta.php">CONSULTAS</a></li>
+        <li><a href="cliente.php">HOME</a></li>
+        <li><a href="server/protocolos.php">PROTOCOLOS</a></li>
+    </ul><h5> <?php 
+            include banco.php;
+            echo $usuario;
+            
+            
+            ?>
+            </h5>
            
 </nav>
          </header>    

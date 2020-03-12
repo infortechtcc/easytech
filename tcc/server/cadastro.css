@@ -1,0 +1,79 @@
+img#cliente{
+    position: relative;
+        top: 90px;
+        
+        right: 410px;
+}
+img#item{
+    position: relative;
+        top: 15px;
+        right: 400px;
+    
+}
+img#tecnico{
+    position: relative;
+        top: -55px;
+        right: 400px;
+    
+}
+img#os{
+    position: relative;
+    position: relative;
+        top: -55px;
+        right: 9000x;
+}
+
+p#cliente{
+    position: relative;
+        top: 10px;
+        left: 400px;
+        font-size: 20px;
+        color: red;
+}
+p#scliente{
+    position: relative;
+        top: -5px;
+        left: 400px;
+        font-size: 13px;
+        color: blue;
+        right: 10px;
+}
+p#scliente:hover{
+    color: #C8AB37;
+}
+
+div#submenu{
+    position: relative;
+    top: 80px;
+    
+}
+p#item{
+    position: relative;
+        top: -75px;
+        left: 400px;
+        font-size: 20px;
+        color: red;
+}
+p#sitem{
+    position: relative;
+        top: -90px;
+        left: 400px;
+        font-size: 13px;
+        color: blue;
+        right: 10px;
+}
+p#tecnico{
+    position: relative;
+        top: -145px;
+        left: 400px;
+        font-size: 20px;
+        color: red;
+}
+p#stecnico{
+    position: relative;
+        top: -160px;
+        left: 400px;
+        font-size: 13px;
+        color: blue;
+        right: 10px;
+}

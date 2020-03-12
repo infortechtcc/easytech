@@ -1,0 +1,10 @@
+form{
+    position: relative;
+    top: 120px;
+    right: -400px;
+    
+}
+label{
+    font-size: 15pt;
+    color: #ff0000;
+}
